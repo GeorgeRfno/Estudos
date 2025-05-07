@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StreamZ - Plataforma de Stream</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>StreamZ</h1>
+    <nav>
+      <ul>
+        <li><a href="#login">Login</a></li>
+        <li><a href="#cadastro">Cadastro</a></li>
+        <li><a href="#canais">Canais ao Vivo</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="login">
+      <h2>Login</h2>
+      <form>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Senha" required>
+        <button type="submit">Entrar</button>
+      </form>
+    </section>
+
+    <section id="cadastro">
+      <h2>Cadastro</h2>
+      <form>
+        <input type="text" placeholder="Nome de usuário" required>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Senha" required>
+        <button type="submit">Cadastrar</button>
+      </form>
+    </section>
+
+    <section id="canais">
+      <h2>Canais ao Vivo</h2>
+      <div class="canal">
+        <h3>GamerPro123</h3>
+        <p>Visualizações ao vivo: 8.720</p>
+        <video controls src="stream1.mp4"></video>
+      </div>
+      <div class="canal">
+        <h3>LadyStream</h3>
+        <p>Visualizações ao vivo: 5.310</p>
+        <video controls src="stream2.mp4"></video>
+      </div>
+      <div class="canal">
+        <h3>CodingWithLeo</h3>
+        <p>Visualizações ao vivo: 3.980</p>
+        <video controls src="stream3.mp4"></video>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 StreamZ - Todos os direitos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
